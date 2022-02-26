@@ -36,7 +36,7 @@ const UserSchema = new mongoose.Schema({
     },
     following: {
         type: Array,
-        default: []
+        default: [],
 
     },
     isAdmin: {

@@ -9,7 +9,7 @@ const authRoute = require("./routes/auth");
 clearInterval
 dotenv.config();
 mongoose.connect(process.env.MONGO_URL, {useNewParser: true,}, () => {
-    console.log("Connected")
+    console.log("Connected");
 });
 
 
